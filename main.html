@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator</title>
+    <!-- FontAwsome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Poppins&family=Roboto&family=Roboto+Slab&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Captcha Generator</h1>
+    <div class="container">
+        <h3 class="sub-head">captcha</h3>
+        <div class="captcha-box">
+            <button id="refresh"><i class="fa-solid fa-rotate-right"></i></button>
+            <input id="gen" type="text" value="" disabled>
+        </div>
+        <div class="captcha-box">
+            <input id="inp" type="text" placeholder="Enter captcha">
+        </div>
+        <div class="captcha-box btn">
+            <p></p>
+            <button id="submit" >Submit</button>
+        </div> 
+    </div> 
+    <script src="index.js"></script>
+</body>
+<footer>© Aditya Utekar, 2023</footer>
+</html>

@@ -1,0 +1,102 @@
+*{
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid bl;
+}
+body{
+    background-color: rgb(76, 38, 121);
+    align-items: center; 
+    justify-content: center; 
+    margin: auto; 
+}
+h1{
+    color: rgb(31, 199, 163);
+    font-size: 40px;
+    font-family: 'Acme';
+    text-align: center;
+    margin: 30px 0px ;
+
+}
+.container{
+    margin: auto;
+    padding: 10px 25px;
+    max-width: 500px;
+    width: 100vw;
+    border-radius: 10px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.sub-head{
+    font-family: 'Poppins';
+    color: rgb(102, 102, 102);
+}
+footer{
+    position: fixed;
+    right: 1px;
+    padding: 5px 0px;
+    bottom: 0px;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: cadetblue;
+    width: 100%;
+}
+.captcha-box {
+    width: 100%;   
+    position: relative;
+}
+input{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 3px;
+    width: 95%;
+    height: 30px;
+    outline: none;
+    padding: 3px 10px;
+    font-size: 15px;
+    text-align: center;
+}
+#gen{
+    cursor:no-drop;
+}
+.captcha-box p {
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+#refresh{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    position: absolute;
+    right: 1px;    
+    height: 81%;
+    padding: 0px 8px;
+    background-color: rgb(76, 38, 121);
+    color: rgb(241, 241, 241);
+}
+#refresh:hover {
+    background-color: rgb(99, 65, 141);
+}
+i:hover{
+    transform: rotate(40deg);
+    transition: 0.2s ease-in-out;
+}
+p{
+    color: brown;
+}
+#submit{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(34, 168, 139);
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: rgb(220, 220, 220);
+}
+#submit:hover{
+    background-color: rgb(10, 116, 93);
+    transition: 0.1s ease-in-out;
+}
